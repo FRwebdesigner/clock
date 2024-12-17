@@ -13,7 +13,7 @@ function clockTick() {
     rotateClockHand(hourHand, hours);
 }
 
-function rotateClockHand(element, rotation){
+function rotateClockHand(element, rotation) {
     element.style.setProperty('--rotate', rotation * 360);
 
 }
